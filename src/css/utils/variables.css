@@ -1,0 +1,13 @@
+:root {
+    --primary-brand-clr: #4d5ae5;
+    --pressed-state-clr: #404bbf;
+    --dark-clr: #2e2f42;
+    --success-clr: #31d0aa;
+    --text-ptimary-clr: #434455;
+    --text-secondary-clr: #8e8f99;
+    --accent-clr: #e7e9fc;
+    --light-clr: #f4f4fd;
+    --overlay-clr: rgba(46, 47, 66, 0.4);
+    --background-hero: rgba(46, 47, 66, 0.7);
+    --background-primary: #fff;
+  }

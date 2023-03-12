@@ -1,0 +1,85 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="close-modal-btn" type="button" data-modal-close>
+      <svg class="close-img">
+        <use href="./images/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+
+    <form>
+      <div class="modal-item">
+        <label class="modal-label"
+          >Name
+          <input
+            class="modal-userform"
+            type="text"
+            name="username"
+            placeholder="John Smith"
+          />
+          <svg class="userform-img person">
+            <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </label>
+      </div>
+
+      <div class="modal-item">
+        <label class="modal-label"
+          >Phone
+          <input
+            class="modal-userform"
+            type="tel"
+            name="userphone"
+            placeholder="+380956126692"
+          />
+          <svg class="userform-img tel">
+            <use href="./images/icons.svg#icon-tel"></use>
+          </svg>
+        </label>
+      </div>
+
+      <div class="modal-item">
+        <label class="modal-label"
+          >Email
+          <input
+            class="modal-userform"
+            type="email"
+            placeholder="box@mail.com"
+            required
+          />
+          <svg class="userform-img mail">
+            <use href="./images/icons.svg#icon-mail"></use>
+          </svg>
+        </label>
+      </div>
+
+      <label class="modal-label commentform"
+        >Comment
+        <textarea
+          class="modal-commentform"
+          name="comments"
+          placeholder="Text input"
+        ></textarea>
+      </label>
+
+      <label class="modal-accept">
+        <input
+          class="modal-accept-chekbox"
+          type="checkbox"
+          name="accept-policy"
+        />
+        <span class="check-box">
+          <svg class="checked-img">
+            <use href="./images/icons.svg#icon-checked"></use>
+          </svg>
+        </span>
+        <span class="modal-accept-text"
+          >I accept the terms and conditions of the</span
+        >
+        <a class="logo-web decorated" href="#">Privacy Policy</a>
+      </label>
+      <button class="submit-btn send" type="submit">Send</button>
+    </form>
+  </div>
+</div>
